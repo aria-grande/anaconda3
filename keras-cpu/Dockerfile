@@ -13,3 +13,6 @@ RUN conda install -y --quiet \
  && pip --no-cache-dir install \
 	# keras.utils.vis_utils
 	pydot_ng
+
+# gym install
+RUN conda install -c akode gym && conda install tqdm
